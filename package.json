@@ -1,0 +1,26 @@
+{
+  "name": "peertube-plugin-landing-page-markdown",
+  "version": "0.0.1",
+  "description": "Adds a markdown message to the landing page",
+  "engine": {
+    "peertube": ">=2.2.0"
+  },
+  "keywords": [
+    "peertube",
+    "plugin"
+  ],
+  "homepage": "https://github.com/McFlat/peertube-plugin-landing-page-markdown",
+  "author": "McFlat",
+  "bugs": "https://github.com/McFlat/peertube-plugin-landing-page-markdown/issues",
+  "library": "./main.js",
+  "staticDirs": {},
+  "css": [],
+  "clientScripts": [
+    {
+      "script": "client/common-client-plugin.js",
+      "scopes": [ "common" ]
+    }
+  ],
+  "translations": {},
+  "license": "MIT"
+}
